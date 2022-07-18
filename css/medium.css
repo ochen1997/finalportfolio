@@ -1,0 +1,39 @@
+@media only screen and (min-width: 768px) {
+    
+    .fig {
+        margin-top: 20px;
+        text-align: center;
+       
+    }
+    .fc {
+        text-align: center;
+    }
+    
+    form {
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+    
+    body {
+        background-color: #000000;
+    }
+    
+    label {
+        background-color: white;
+        color: #3A5311;
+        font-family: "Roboto";
+        
+    }
+    #search {
+        font-family: "Roboto";
+    }
+    
+    
+    #button {
+        color: #3A5311;
+        border: none;
+        background-color: white;
+        font-family: "Roboto";
+    }
+}
