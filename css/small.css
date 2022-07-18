@@ -1,11 +1,19 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-header {
-    max-width: 500px;
-    margin: auto;
+
+.lists, a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
     
+   
 }
 
 .lists {
@@ -14,15 +22,7 @@ header {
   
 }
 
-.lists, a {
-    text-decoration: none;
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
-   
-}
+
 
 .list, a:hover {
     color: red;

@@ -1,4 +1,18 @@
 @media only screen and (min-width: 768px) {
+    header {
+        max-width: 500px;
+        margin: auto;
+    }
+    .lists, a {
+        text-decoration: none;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        
+       
+    }
     
     .fig {
         margin-top: 20px;
