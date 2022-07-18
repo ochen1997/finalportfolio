@@ -9,6 +9,13 @@
         justify-content: center;
         justify-content: space-between;
     }
+
+    .list, a:hover {
+        color: rgb(157, 255, 0);
+        background-color: #3A5311;
+        border-radius: 20px 20px 20px;
+        padding: 5px;
+    }
     
     .fig {
         margin-top: 20px;

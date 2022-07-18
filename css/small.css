@@ -25,7 +25,11 @@
 
 
 .list, a:hover {
-    color: red;
+    color: rgb(157, 255, 0);
+    background-color: #3A5311;
+    border-radius: 20px 20px 20px;
+    border: 0px;
+    
 }
 
 
