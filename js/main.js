@@ -5,16 +5,16 @@ function init() {
         const search = document.querySelector("#search").value
 
         // prevent the form from loading
-        ev.preventDefault();
+        // ev.preventDefault();
         let url = `https://api.giphy.com/v1/gifs/search?q=${search}&rating=g&api_key=${APIKEY}`
        
         // get url using the api to fetch to turn data into json 
         fetch(url)
         .then(response => response.json())
         .then(content => {
-            console.log(content.data)
+            console.table(content.data)
             let fig = document.createElement("figure")
-            fig.classList.add("fig")
+            fig.classList.add("fig") 
 
             let img = document.createElement("img")
             let fc = document.createElement("figcaption")
